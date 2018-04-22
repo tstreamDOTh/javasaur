@@ -9,5 +9,4 @@ setup(
   url = 'https://github.com/tstreamDOTh/javasaur', # use the URL to the github repo
   download_url = 'https://github.com/tstreamDOTh/javasaur/archive/0.1.tar.gz', # I'll explain this in a second
   keywords = ['java', 'javalang', 'javaparser', 'parser'], # arbitrary keywords
-  classifiers = [],
 )
