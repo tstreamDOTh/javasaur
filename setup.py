@@ -1,4 +1,4 @@
-from distutils.core import setup
+from setuptools import setup
 setup(
   name = 'javasaur',
   packages = ['javasaur'], # this must be the same as the name above
@@ -9,4 +9,7 @@ setup(
   url = 'https://github.com/tstreamDOTh/javasaur', # use the URL to the github repo
   download_url = 'https://github.com/tstreamDOTh/javasaur/archive/0.1.tar.gz', # I'll explain this in a second
   keywords = ['java', 'javalang', 'javaparser', 'parser'], # arbitrary keywords
+   install_requires=[
+          'javalang',
+      ],
 )
